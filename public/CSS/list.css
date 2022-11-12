@@ -1,0 +1,32 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans';
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 2%;
+    text-align: center;
+    margin: 20px;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: 2px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+.title{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1% 5%;
+}

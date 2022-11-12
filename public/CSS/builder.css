@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(228, 228, 228);
+}
+/*INTRO SECTION*/
+#intro {
+    text-align: center;
+    font-family: 'Josefin Sans';
+    margin: 0;
+}
+
+.intro-div {
+    width: 100%;
+    color: #ffffff;
+    background-color: #6d0c74;
+}
+
+.h1 {
+    padding: 5% 10% 2%;
+    font-size: 2.5rem;
+}
+
+.p {
+    padding: 2% 1% 10%;
+    font-size: 1rem;
+}
+
+.build-guide {
+    text-decoration: none;
+    color: rgb(14, 204, 218);
+}
+
+.build-guide:hover {
+    color: rgb(21, 135, 143);
+    text-decoration: none;
+}
+
+/*PRODUCTS SECTION*/
+
+.all-image {
+    border-radius: 2%;
+    height: 32px;
+    width: 32px;
+}
+
+#products{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: 'Josefin Sans';
+    color: #6d0c74;
+    
+}
+.choose {
+    border-radius: 5%;
+    background-color: #6d0c74;
+    color: white;
+}
+table{
+    margin: auto;
+    
+}
+td{
+    padding: 15px 50px;
+}
+

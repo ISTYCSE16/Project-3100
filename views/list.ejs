@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/list.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid title">
+            <h1> <%= listTitle %> </h1>
+        </div>
+        <form action="/product" method="POST">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>Cores</td>
+                    <td>Threads</td>
+                    <td>Price</td>
+                </tr>
+                <% listOfProduct.forEach(function(item){ %>  
+                <tr>
+                    <td><%= item.name %></td>
+                    <td><%= item.core %></td>
+                    <td><%= item.thread %></td>
+                    <td><%= item.price %></td>
+                    <td><button class="btn btn-lg" type="submit" name="select" value="<%= item.name %>">SELECT</button></td>
+                </tr>
+            <% }) %>
+            </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+#intro{
+    background-color: #ed1250;
+    color: white;
+    font-family: 'Josefin Sans';
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+    margin-bottom: 3%;
+}
+.desc{
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+.container-fluid{
+    padding: 5% 10%;
+}

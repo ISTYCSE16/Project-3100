@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <title>Build Your Own</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="CSS/builder.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <section id="intro">
+        <div class="container-fluid intro-div">
+            <div class="h1">
+                <h1>START BUILDING</h1>
+            </div>
+            <div class="p">
+                <p>START BUILDING A PC ACCORDING TO YOUR NEED. IF YOU ARE NOT SURE WHAT TO DO, SEE OUR <a href="#"
+                        class="build-guide">BUILD GUIDE</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container-fluid">
+            <form action="/" method="POST">
+                <table>
+                    <tr>
+                        <td><img src="images/cpu.png" alt="processor" class="all-image"></td>
+                        <td>
+                            <h4>Processor</h4>
+                        </td>
+                        <td><p><%= namep %></p></td>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="cpu">CHOOSE</button></td>
+                        <td>
+                            <h6><%= pricep %></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/motherboard.png" alt="motherboard" class="all-image"></td>
+                        <td>
+                            <h4>Motherboard</h4>
+                        </td>
+                        <td><p></p></td>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="mobo">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/ram.png" alt="ram" class="all-image"></td>
+                        <td>
+                            <h4>RAM</h4>
+                        </td>
+                        <td><p></p>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="ram">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/ssd-drive.png" alt="ssd" class="all-image"></td>
+                        <td>
+                            <h4>SSD</h4>
+                        </td>
+                        <td><p></p>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="ssd">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/harddisk.png" alt="harddisk" class="all-image"></td>
+                        <td>
+                            <h4>Hard Disk</h4>
+                        </td>
+                        <td><p></p></td>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="hdd">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/graphics-card.png" alt="graphics-card" class="all-image"></td>
+                        <td>
+                            <h4>Graphics Card</h4>
+                        </td>
+                        <td><p></p></td>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="gpu">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/power-supply.png" alt="power-supply" class="all-image"></td>
+                        <td>
+                            <h4>Power Supply</h4>
+                        </td>
+                        <td><p></p></td>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="psu">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/monitor.png" alt="monitor" class="all-image"></td>
+                        <td>
+                            <h4>Monitor</h4>
+                        </td>
+                        <td><p></p></td>
+                        <td><button type="submit" class="btn btn-sm choose" name="choose" value="monitor">CHOOSE</button></td>
+                        <td>
+                            <h6></h6>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
